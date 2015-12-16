@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>H. Ayuntamiento de Minatitlán</title>
-	<link rel="stylesheet" href="css/materialize.css">
-	<link rel="stylesheet" href="css/estilos.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>H. Ayuntamiento de Minatitlán</title>
+		<link rel="stylesheet" href="css/estilos.css">
+		<link rel="stylesheet" href="css/materialize.css">
+		<link rel="stylesheet" href="font-awesome.min.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/javascript.js"></script>
-	<script src="js/materialize.min.js"></script></head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/materialize.min.js"></script>
+	</head>
 
-<body>
-	<nav class="white">
-		<div class="nav-wrapper">
-			<a class="brand-logo center"><img id="logo" src="img/minatitlan.png"></a>
-			<ul class="left hide-on-med-and-down">
-				<li class="active green white-text"><a href="#">Inicio</a></li>
-				<li><a href="#" class="green-text">Gobierno</a></li>
-				<li><a href="#" class="green-text">Tramites y Servicios</a></li>
-			</ul>
+	<body>
+		<div class="navbar-fixed"> 
+			<nav class="white">
+				<div class="nav-wrapper">
+				    <a href="#" class="brand-logo center"> <img src="img/minatitlan-logo.png"></a>
+				    <a href="#" data-activates="mobile" class="button-collapse">
+				    	<i class="mdi-navigation-menu"></i>
+				    </a>
+						<ul class="left hide-on-med-and-down">
+							<li class="active green" ><a href="#" class="white-text">Inicio</a></li>
+							<li><a class="black-text" href="#">Historia</a></li>
+							<li><a class="black-text" href="#">Gobierno</a></li>
+							<li><a class="black-text" href="#">Tramites y Servicios</a></li>
+						</ul>
 
-			<ul class="right hide-on-med-and-down">
-				<li><a href="#" class="green-text">Prensa</a></li>
-				<li><a href="#" class="green-text">Trasparencia</a></li>
-				<li><a href="#" class="green-text">Contacto</a></li>
-			</ul>
+						<ul class="right hide-on-med-and-down">
+							<li><a class="black-text" href="#">Información Turistica</a></li>
+							<li><a class="black-text" href="#">Noticias</a></li>
+							<li><a class="black-text" href="#">Eventos</a></li>
+							<li><a class="black-text" href="#">Contacto</a></li>
+						</ul>
+				</div>
+			</nav>
 		</div>
-	</nav>
 
-	<section id="banner">
-		<div class="container id="unico" ">
+		<div class="container">
 			<div class="row">
-				<div class="col s12">
-					<div class="slider "> <!-- con la propiedad fullscreen abarca toda la pantalla -->
+				<div class="col m12">
+					<div class="slider"> <!-- con la propiedad fullscreen abarca toda la pantalla -->
 						<ul class="slides">
 							<li>
 								<img src="img/img1.jpg" height="400" width="1024" alt="">
-								<div class="caption center-align">
-									<h3 class="black-text">Title</h3>
-									<h5 class="light grey-text text-darken-2">Subtitulo</h5>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nostrum?</p>
-								</div>
+								<div class="caption right-align">
+									<h3 class="white-text">El salto</h3>
+			          				<span class="white-text">Tesoro Municipal</span>
+			          			</div>
 							</li>
 							<li>
 								<img src="img/img2.jpg" height="400" width="1024" alt="">
@@ -55,14 +61,174 @@
 									<h3>Title</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, officia.</p>
 								</div>
+							</li>
 						</ul>
-					</li>
+					</div>
+				</div>
+		 	</div>
+
+
+		 	<div class="row">
+		 		<h2><center>Gobierno</center></h2><hr><br>
+				<div class="col s2 m4">
+					<div class="card ">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="activator" src="img/funcionario1.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">
+								<i class="mdi-navigation-more-vert right"></i>
+								<p>Esteban Ramirez</p>
+							</span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4 ">
+								Sindico
+								<i class="mdi-navigation-close right"></i>
+							</span>
+							<p>Hacienda y Patrimonio Municipal, Gobernación, Reglamentos y Circulares, Policia y Prevencion del Delito</p><br>
+							<a href="#"><img src="img/facebook.png"></a>
+							<a href="#"><img src="img/twiiter.png"></a>
+						</div>
+					</div>
+				</div>
+				<div class="col s2 m4">
+					<div class="card ">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="activator" src="img/funcionario1.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">
+								<i class="mdi-navigation-more-vert right"></i>
+								<p>Esteban Ramirez</p>
+							</span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4 ">
+								Sindico
+								<i class="mdi-navigation-close right"></i>
+							</span>
+							<p>Hacienda y Patrimonio Municipal, Gobernación, Reglamentos y Circulares, Policia y Prevencion del Delito</p><br>
+							<a href="#"><img src="img/facebook.png"></a>
+							<a href="#"><img src="img/twiiter.png"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s2 m4">
+					<div class="card ">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="activator" src="img/funcionario1.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">
+								<i class="mdi-navigation-more-vert right"></i>
+								<p>Esteban Ramirez</p>
+							</span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4 ">
+								Sindico
+								<i class="mdi-navigation-close right"></i>
+							</span>
+							<p>Hacienda y Patrimonio Municipal, Gobernación, Reglamentos y Circulares, Policia y Prevencion del Delito</p><br>
+							<a href="#"><img src="img/facebook.png"></a>
+							<a href="#"><img src="img/twiiter.png"></a>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
 
-	<section id="body"></section>
+			<div class="row">
+						<div class="col s2 m4">
+					<div class="card ">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="activator" src="img/funcionario1.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">
+								<i class="mdi-navigation-more-vert right"></i>
+								<p>Esteban Ramirez</p>
+							</span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4 ">
+								Sindico
+								<i class="mdi-navigation-close right"></i>
+							</span>
+							<p>Hacienda y Patrimonio Municipal, Gobernación, Reglamentos y Circulares, Policia y Prevencion del Delito</p><br>
+							<a href="#"><img src="img/facebook.png"></a>
+							<a href="#"><img src="img/twiiter.png"></a>
+						</div>
+					</div>
+				</div>
+				<div class="col s2 m4">
+					<div class="card ">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="activator" src="img/funcionario1.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">
+								<i class="mdi-navigation-more-vert right"></i>
+								<p>Esteban Ramirez</p>
+							</span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4 ">
+								Sindico
+								<i class="mdi-navigation-close right"></i>
+							</span>
+							<p>Hacienda y Patrimonio Municipal, Gobernación, Reglamentos y Circulares, Policia y Prevencion del Delito</p><br>
+							<a href="#"><img src="img/facebook.png"></a>
+							<a href="#"><img src="img/twiiter.png"></a>
+						</div>
+					</div>
+				</div>
 
-</body>
+				<div class="col s2 m4">
+					<div class="card ">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="activator" src="img/funcionario1.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">
+								<i class="mdi-navigation-more-vert right"></i>
+								<p>Esteban Ramirez</p>
+							</span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4 ">
+								Sindico
+								<i class="mdi-navigation-close right"></i>
+							</span>
+							<p>Hacienda y Patrimonio Municipal, Gobernación, Reglamentos y Circulares, Policia y Prevencion del Delito</p><br>
+							<a href="#"><img src="img/facebook.png"></a>
+							<a href="#"><img src="img/twiiter.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<h2><center>Tramites y Servicios</center></h2><br>
+				<hr>
+				
+			</div>
+
+		 </div>
+
+
+
+
+		<script>
+
+	   		$(function() {
+	   			$(".slider").slider({
+	   				height : 540,
+	   				transition : 600
+	   			});
+	   		});
+   		</script>
+
+	</body>
 </html>
